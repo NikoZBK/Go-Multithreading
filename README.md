@@ -68,7 +68,7 @@ Each `Node` consists of:
 
 1. **Build and Run**:
    ```bash
-   go run threadpref.go
+   go run threadperf.go
    ```
 
 2. **Sample Output**:
