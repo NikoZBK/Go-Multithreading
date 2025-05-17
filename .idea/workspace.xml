@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87dbffd1-f24b-476f-a93d-e05ec5194903" name="Changes" comment="https://medium.com/@brenomachadodomonte/multithreading-with-go-routines-in-golang-7e8fcd33be81">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/performance_comparison_analysis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadperf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" />
+    <list default="true" id="87dbffd1-f24b-476f-a93d-e05ec5194903" name="Changes" comment="Replaced the previous boilerplate code implementation in `hello.go` with a new Go application for benchmarking single-threaded vs. multi-threaded sorting performance. Includes detailed runtime comparisons and correctness verification, demonstrating efficient parallel processing using goroutines.">
+      <change afterPath="$PROJECT_DIR$/sorting_algorithm_tests.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
         <option value="NikoZBK &lt;nikozbk@gmail.com&gt;" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="59a25776baa6a02f617bf91244b900d47a09ba07" />
@@ -46,6 +46,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -115,9 +118,31 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="a57c8536-1073-4d21-ab60-cf7287e6a31f" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="a57c8536-1073-4d21-ab60-cf7287e6a31f">
           <value>
             <State />
           </value>
@@ -127,7 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="https://medium.com/@brenomachadodomonte/multithreading-with-go-routines-in-golang-7e8fcd33be81" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://medium.com/@brenomachadodomonte/multithreading-with-go-routines-in-golang-7e8fcd33be81" />
+    <MESSAGE value="Replaced the previous boilerplate code implementation in `hello.go` with a new Go application for benchmarking single-threaded vs. multi-threaded sorting performance. Includes detailed runtime comparisons and correctness verification, demonstrating efficient parallel processing using goroutines." />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced the previous boilerplate code implementation in `hello.go` with a new Go application for benchmarking single-threaded vs. multi-threaded sorting performance. Includes detailed runtime comparisons and correctness verification, demonstrating efficient parallel processing using goroutines." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
